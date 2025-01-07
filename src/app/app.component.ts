@@ -9,16 +9,5 @@ import { PageComponent } from './common/page/page.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-clone';
-  selectedOption: string = ''; 
-  options = [];
- items: string[] = []; 
-value: any;
-
-  // Filter method for p-autocomplete
-  search(event: any): void {
-    const query = event.query.toLowerCase();
-    this.items = this.options
-  
-  }
+ 
 }
