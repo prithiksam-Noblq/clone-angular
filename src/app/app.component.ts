@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { PageComponent } from './common/page/page.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [AutoCompleteModule,FormsModule],
+  imports: [PageComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
